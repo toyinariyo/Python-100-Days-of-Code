@@ -37,8 +37,8 @@ operations = {
     "/": divide
 }
 
-first_number = int(input("What's the first number? "))
-second_number = int(input("What's the second number? "))
+first_number = float(input("What's the first number? "))
+second_number = float(input("What's the second number? "))
 for sign in operations:
     print(sign)
     should_continue = True
