@@ -54,3 +54,5 @@ while should_continue:
         should_continue = False
         cls()
         calculator()
+        
+calculator()
