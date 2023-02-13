@@ -80,6 +80,7 @@ def play_game():
             player_deals_again = input("Type 'y' to get another card or type 'n' to pass: ")
             if player_deals_again == "y":
                 player_cards.append(deal_card())
+                player_score = calculate_score(player_cards)
             else:
                 game_over = True
         # Hint 12: Once the user is done, it's time to let the computer play.
